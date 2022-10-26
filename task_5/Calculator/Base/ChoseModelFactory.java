@@ -1,13 +1,13 @@
-package task_5.Base;
+package task_5.Calculator.Base;
 
 import java.util.List;
 
-import Seminar_11.HW_05.My001Calc.Models.SumModel;
-import Seminar_11.HW_05.My001Calc.Interfaces.IChoosingAction;
-import Seminar_11.HW_05.My001Calc.Interfaces.IModel;
-import Seminar_11.HW_05.My001Calc.Models.DifModel;
-import Seminar_11.HW_05.My001Calc.Models.DivModel;
-import Seminar_11.HW_05.My001Calc.Models.ProdModel;
+import task_5.Calculator.Models.SumModel;
+import task_5.Calculator.Interfaces.IChoosingAction;
+import task_5.Calculator.Interfaces.IModel;
+import task_5.Calculator.Models.DifModel;
+import task_5.Calculator.Models.DivModel;
+import task_5.Calculator.Models.ProdModel;
 
 public class ChoseModelFactory implements IChoosingAction {
 

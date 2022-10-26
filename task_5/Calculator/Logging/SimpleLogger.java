@@ -1,11 +1,11 @@
-package task_5.Logging;
+package task_5.Calculator.Logging;
 
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-import task_5.Interfaces.ILogger;
+import task_5.Calculator.Interfaces.ILogger;
 
 import java.io.IOException;
 
@@ -20,13 +20,10 @@ public class SimpleLogger implements ILogger{
      */
     public Logger getLog () throws IOException {
         this.logger = Logger.getAnonymousLogger();
-        // this.logger = Logger.getLogger(className);
-        this.fh = new FileHandler(
-                "Java_REPO/OOP_HW/task_5/Logging/LogData/logCalc.txt");
+      
+        this.fh = new FileHandler("Java_REPO\\OOP_HW\\task_5\\Logging\\LogData\\logCalculator.txt");
         logger.addHandler(fh);
-        // SimpleFormatter sFormat = new SimpleFormatter();
-        // fh.setFormatter(sFormat);
-        // logger.info(myText);
+    
         return logger;
     }
 

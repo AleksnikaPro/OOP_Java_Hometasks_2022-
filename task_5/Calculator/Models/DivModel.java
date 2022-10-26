@@ -1,11 +1,12 @@
-package task_5.Models;
+package task_5.Calculator.Models;
 
-import task_5.Base.CalcModel;
+import task_5.Calculator.Base.CalcModel;
 
-public class ProdModel extends CalcModel{
+public class DivModel extends CalcModel {
+
     @Override
     public double result() {
-        return x * y;
+        return x / y;
     }
 
     @Override
@@ -18,4 +19,5 @@ public class ProdModel extends CalcModel{
         super.y = value;   
     }
 
+    
 }

@@ -1,10 +1,10 @@
-package task_5;
+package task_5.Calculator;
 
 import java.io.IOException;
 
-import task_5.Base.ChoseModelFactory;
-import task_5.Interfaces.ILogger;
-import task_5.Logging.SimpleLogger;
+import task_5.Calculator.Base.ChoseModelFactory;
+import task_5.Calculator.Interfaces.ILogger;
+import task_5.Calculator.Logging.SimpleLogger;
 
 public class Program {
     

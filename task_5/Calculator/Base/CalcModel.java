@@ -1,6 +1,6 @@
-package task_5.Base;
+package task_5.Calculator.Base;
 
-import Seminar_11.HW_05.My001Calc.Interfaces.IModel;
+import task_5.Calculator.Interfaces.IModel;
 
 public abstract class CalcModel implements IModel {
     protected double x;

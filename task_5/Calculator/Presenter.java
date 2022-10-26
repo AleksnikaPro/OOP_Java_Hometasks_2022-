@@ -1,12 +1,12 @@
-package task_5;
+package task_5.Calculator;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import task_5.Interfaces.IChoosingAction;
-import task_5.Interfaces.ILogger;
-import task_5.Interfaces.IView;
+import task_5.Calculator.Interfaces.IChoosingAction;
+import task_5.Calculator.Interfaces.ILogger;
+import task_5.Calculator.Interfaces.IView;
 
 public class Presenter {
     private final IView myView;

@@ -1,4 +1,4 @@
-package task_5.Interfaces;
+package task_5.Calculator.Interfaces;
 
 import java.io.IOException;
 import java.util.logging.Logger;

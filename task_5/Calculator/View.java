@@ -1,8 +1,8 @@
-package task_5;
+package task_5.Calculator;
 
 import java.util.Scanner;
 
-import task_5.Interfaces.IView;
+import task_5.Calculator.Interfaces.IView;
 
 public class View implements IView{
     Scanner sc = new Scanner(System.in);
