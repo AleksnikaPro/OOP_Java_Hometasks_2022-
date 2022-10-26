@@ -1,0 +1,4 @@
+окт. 26, 2022 11:43:13 AM Program Main
+INFO: the program is started
+окт. 26, 2022 11:43:13 AM Program Main
+INFO: the program finished
